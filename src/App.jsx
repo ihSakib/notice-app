@@ -5,6 +5,7 @@ import Login from "./auth/Login";
 import Home from "./Home";
 import Manage from "./Manage";
 import Layout from "./Layout";
+import NotFound from "./NotFound";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
                 </ProtectedRoute>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </Router>

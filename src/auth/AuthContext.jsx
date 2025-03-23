@@ -7,7 +7,7 @@ export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
   const login = (username, password) => {
-    if (username === "admin" && password === "1234") {
+    if (username === "ihsakib" && password === "nb797##") {
       sessionStorage.setItem("loggedIn", true);
       return true;
     }
