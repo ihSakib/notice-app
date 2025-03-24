@@ -6,6 +6,7 @@ import Home from "./Home";
 import Manage from "./Manage";
 import Layout from "./Layout";
 import NotFound from "./NotFound";
+import Notice from "./Notice";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/notice" element={<Notice />} />
             <Route
               path="/manage"
               element={

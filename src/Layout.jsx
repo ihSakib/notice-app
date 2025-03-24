@@ -8,7 +8,10 @@ const Layout = () => {
         <h1 className=" text-lg md:text-2xl text-center font-bold">
           <Link to="/">Notice Board📍</Link>
         </h1>
-        <nav className="text-sm md:text-base text-center">
+        <nav className="text-sm md:text-base text-center flex gap-4 md:gap-6">
+          <Link to="/notice" className="text-white hover:underline">
+            Notices
+          </Link>
           <Link to="/manage" className="text-white hover:underline">
             Manage
           </Link>
